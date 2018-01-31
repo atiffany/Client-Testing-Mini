@@ -4,7 +4,7 @@
   "description": "Topics:",
   "main": "index.js",
   "scripts": {
-    "test": "find ./tests -name '*test.js' | xargs mocha -R nyan"
+    "test": "mocha *.test.js -R nyan"
   },
   "keywords": [],
   "author": "",
